@@ -1,4 +1,4 @@
-;o processo de compilacao sera da seguinte forma: 1- processo de montagem com o nasm 2- processo de lincagem com o gnu ld
+;o processo de compilacao sera da seguinte forma: 1- processo de montagem com o nasm 2- processo de linkagem com o gnu ld
 
 section .data ;sera usado pelo programa de ligacao (ld) na hora de criar o arquivo binario
 		;essas secoes sao reconhecidas sao blocos reconhecidos pelo sistema
@@ -22,7 +22,7 @@ section .text ;sera usado pelo programa de ligacao (ld) na hora de criar o arqui
 
 IPC (cOMUNIACAO ENTRE PROCESSOS)
 
-Abaixo existem 2 visoes, o primeiro eh o do linker no processo de ligacao do objeto e o segundo e a vissao do sistema operacional que le o arquivo binario e joga na memoria
+Abaixo existem 2 visoes, o primeiro eh o do linker no processo de ligacao do objeto e o segundo e a visao do sistema operacional que le o arquivo binario e joga na memoria
 
 Visão do linker                             Visão do sistema
                 +-------------------------+ <---+ 
